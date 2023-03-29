@@ -1,1 +1,1 @@
-httplocalhostSIAcontent_msapiroutes.phprequest=index
+http://localhost/SIA/content_ms/api/routes.php?request=index
