@@ -1,0 +1,79 @@
+.admin_right_pane {
+    width: 86%;
+    padding: 30px;
+    background-color: #F8FAFB;
+}
+
+
+.admin_right_pane_content_container {
+    border: 1px solid #6900d3;
+    min-height: 600px;
+}
+
+.admin_right_pane_annoucements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.admin_right_pane_column {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    border: 1px solid #dad9d9;
+    width: 23.5%;
+    background-color: #4BB1F7;
+    height: 130px;
+    display: flex;
+}
+.admin_right_pane_icon_dashboard {
+    background-color: #F8FAFB;
+    height: 70px;
+    border-radius: 40px;
+    margin-top: 25px;
+    display: flex;
+    margin-left: 40px;
+    width: 70px;
+}
+
+.admin_right_pane_icon_dashboard img {
+    display: inline-block;
+    padding-top: 12px;
+    padding-left: 12px;
+    width: 45px;
+    height: 45px;
+    
+}
+
+
+.admin_right_pane_card {
+    color: white;
+    font-style: bold;
+    /* padding-left: 20px; */
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    margin-left: -60px;
+
+}
+
+.admin_right_pane_card .admin_right_pane_text {
+    color: white;
+    font-family: hebbo;
+    margin-top: -5px;
+    font-weight: 300;
+    font-size: 15px;
+    padding-bottom: 10px;
+    border:  solid rgb(146, 1, 1);
+    /* text-align: right; */
+    
+
+}
+.admin_right_pane_card .admin_right_pane_number {
+    color: white;
+    font-family: hebbo;
+    margin-top: 70px;
+    font-weight: 300;
+    font-size: 60px;
+    margin-top: -15px;
+        border:  solid rgb(146, 1, 1);
+
+}
